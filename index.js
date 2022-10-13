@@ -1,3 +1,5 @@
+// Backend
+
 const express = require('express')
 const cors = require('cors')
 const app = express()
@@ -44,3 +46,4 @@ app.post('/food', (req, res) => {
 app.listen(port, () => {
   console.log(`Lab server listening at http://localhost:${port}`)
 })
+
